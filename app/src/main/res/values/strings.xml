@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="loanAmount_hint">Loan Amount</string>
+    <string name="term_hint">Term of Loan (years)</string>
+    <string name="interestRate_hint">Yearly Interest Rate</string>
+    <string name="calculate">Calculate</string>
+    <string name="clear">Clear</string>
+    <string name="monthlyPayment">Monthly Payment: </string>
+    <string name="totalPayment">Total Payment: </string>
+    <string name="totalInterest">Total Interest: </string>
+</resources>

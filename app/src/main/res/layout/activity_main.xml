@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a1536381.lab2_calculator.MainActivity">
+
+
+    <EditText
+        android:id="@+id/loanAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/loanAmount_hint"/>
+
+
+    <EditText
+        android:id="@+id/term"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/term_hint"/>
+
+    <EditText
+        android:id="@+id/interestRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/interestRate_hint"/>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calculate"
+        android:text="@string/calculate" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clear"
+        android:text="@string/clear" />
+
+    <TextView
+        android:id="@+id/monthlyPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/monthlyPayment"/>
+
+    <TextView
+        android:id="@+id/totalPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/totalPayment"/>
+
+    <TextView
+        android:id="@+id/totalInterest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/totalInterest"/>
+
+</LinearLayout>
